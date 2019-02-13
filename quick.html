@@ -240,18 +240,18 @@ fn loop n:
         objects in other languages, but they're made to work better with parallelism and the functional programming paradigm. Let's define a custom type
       </div>
       <pre class="clio-editor" contenteditable="true">type cat name age:
-  name => my name
-  age  => my age
+  name => self.name
+  age  => self.age
 
 #Moki 6 -> cat => moki
 
 moki's name -> print</pre>
       <div class="paragraph">
-        Each custom type has an init function that will be called upon creation. Inside the init function, the properties of the type can be accessed using <code> self' </code> , <code> self's </code> or <code> my </code>
+        Each custom type has an init function that will be called upon creation. Inside the init function, the properties of the type can be accessed using <code> self </code>
       </div>
       <pre class="clio-editor" contenteditable="true">type cat name age:
-  name => my name
-  age  => self' age
+  name => self.name
+  age  => self.age
 
   'A new cat was created' -> print
 
@@ -262,17 +262,17 @@ moki's name -> print</pre>
         Functions can be overloaded for custom types using the <code> of </code> keyword. This will make <code> self' </code> , <code> self's </code> and <code> my </code> available in the function scope
       </div>
       <pre class="clio-editor" contenteditable="true">type cat name:
-  name => my name
+  name => self.name
 
 type dog name:
-  name => my name
+  name => self.name
 
 @eager
 fn hello of cat:
-  my name -> print 'Meow! My name is' @
+  self.name -> print 'Meow! My name is' @
 
 fn hello of dog:
-  my name -> print 'Woof! My name is' @
+  self.name -> print 'Woof! My name is' @
 
 #Honey -> cat -> hello
 #Gino -> dog -> hello</pre>
@@ -280,7 +280,7 @@ fn hello of dog:
         The <code> of </code> keyword can be combined with <code> if </code> keyword for further overloading of the argument of <code> hello </code>
       </div>
       <pre class="clio-editor" contenteditable="true">type cat name:
-  name => my name
+  name => self.name
 
 @eager
 fn hello s if str of cat:
