@@ -18,6 +18,7 @@
   * [Overloading](learn/official-tutorial/overloading.md)
   * [Methods](learn/official-tutorial/methods.md)
   * [Hosting](learn/official-tutorial/hosting.md)
+  * [Modules](learn/official-tutorial/modules.md)
 
 ## Clio Executable
 
