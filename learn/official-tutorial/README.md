@@ -10,7 +10,7 @@ Please note this is a work in progress, Clio isn't ready for production, it's no
 
 ## Examples
 
-* [GitHub repo](https://github.com/clio-lang/clio)
+* [GitHub Examples Repository](https://github.com/clio-lang/examples)
 * [RosettaCode](http://rosettacode.org/wiki/Clio)
 * [Todo Example \(Host/Browser\)](https://github.com/clio-lang/clio-todo)
 
