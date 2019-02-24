@@ -17,6 +17,7 @@
   * [Custom data types](learn/official-tutorial/custom-data-types.md)
   * [Overloading](learn/official-tutorial/overloading.md)
   * [Methods](learn/official-tutorial/methods.md)
+  * [Hosting](learn/official-tutorial/hosting.md)
 
 ## Clio Executable
 
