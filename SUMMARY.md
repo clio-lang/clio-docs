@@ -18,3 +18,13 @@
   * [Overloading](learn/official-tutorial/overloading.md)
   * [Methods](learn/official-tutorial/methods.md)
 
+## Clio Executable
+
+* [Clio Executable](clio-executable/clio-executable/README.md)
+  * [Clio run](clio-executable/clio-executable/clio-run.md)
+  * [Clio compile](clio-executable/clio-executable/clio-compile.md)
+  * [Clio ast](clio-executable/clio-executable/clio-ast.md)
+  * [Clio host](clio-executable/clio-executable/clio-host.md)
+  * [Clio highlight](clio-executable/clio-executable/clio-highlight.md)
+  * [Clio get](clio-executable/clio-executable/clio-get.md)
+
