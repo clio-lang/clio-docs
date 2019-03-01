@@ -17,7 +17,7 @@ Clio supports multi-dimensional indexing:
  [4 5 6]
  [7 8 9]] => my_list
 
-my_list[1 1] -> print   -- first row first col!
+my_list[1 1] -> print   -- 2nd row 2nd col!
 ```
 
 You will learn more about indexing in next chapter, for now let's learn a little more about the data types.
