@@ -2,5 +2,7 @@
 
 To print the abstract syntax tree, you can run:
 
-`clio ast file.clio`
+```text
+clio ast file.clio
+```
 

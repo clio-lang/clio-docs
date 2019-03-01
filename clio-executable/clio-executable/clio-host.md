@@ -1,6 +1,8 @@
 # Clio host
 
-To host a Clio file \(Functions as microservices\) you can do:
+To host a Clio file \(Functions as micro-services\) you can do:
 
-`clio host file.clio`
+```text
+clio host file.clio
+```
 

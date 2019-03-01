@@ -29,4 +29,5 @@
   * [Clio host](clio-executable/clio-executable/clio-host.md)
   * [Clio highlight](clio-executable/clio-executable/clio-highlight.md)
   * [Clio get](clio-executable/clio-executable/clio-get.md)
+  * [Clio completion](clio-executable/clio-executable/clio-completion.md)
 

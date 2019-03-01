@@ -8,4 +8,5 @@ Clio executable provides several commands to work with Clio code. These commands
 * host
 * highlight
 * get
+* completion
 

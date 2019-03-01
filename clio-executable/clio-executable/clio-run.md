@@ -2,5 +2,7 @@
 
 To run a Clio file, you can do:
 
-`clio run file.clio`
+```text
+clio run file.clio
+```
 
