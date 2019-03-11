@@ -31,3 +31,11 @@
   * [Clio get](clio-executable/clio-executable/clio-get.md)
   * [Clio completion](clio-executable/clio-executable/clio-completion.md)
 
+## Modules
+
+* [Modules](modules/modules/README.md)
+  * [Clio modules](modules/modules/clio-modules.md)
+  * [JS Modules](modules/modules/js-modules.md)
+  * [Clio environment](modules/modules/clio-environment.md)
+  * [Browser](modules/modules/browser.md)
+
