@@ -18,7 +18,7 @@ fn to_power_of i n:
   #port 3000    -- defaults to 3000
   #workers 8    -- defaults to number of cpus
   #exports [#to_power_of #my_emitter #answer] -- choose what you want to host
-}
+} => host
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
