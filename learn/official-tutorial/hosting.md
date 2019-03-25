@@ -27,7 +27,7 @@ Now, we can host this file using:
 
 `clio host host.clio`
 
- Then in another Clio code, we can import these variables, event emitters and functions. For functions and variables we can use http or https, ws or wss protocols, but for events we must use either ws or wss:
+Then in another Clio code, we can import these variables, event emitters and functions. For functions and variables we can use http or https, ws or wss protocols, but for events we must use either ws or wss:
 
 ```text
 import answer to_power_of from http://localhost:3000

@@ -20,21 +20,21 @@ import hello from my_module.js
 
 When importing JavaScript files you must include `.js` in the file name. Same as Clio modules, these imports are relative and recognize the same path formats as the Clio file imports.
 
-Currently, Clio doesn't support direct Node.js module imports. For now, to import a Node.js module either import the main JavaScript file of the package, or `require` them in a JavaScript file and import that JavaScript file. As an example:
+To import and use a Node.js module, install it using `npm`
+
+```text
+npm i express
+```
+
+Then you can import it in your Clio file:
 
 {% code-tabs %}
-{% code-tabs-item title="rethinkdb.js" %}
+{% code-tabs-item title="example.clio" %}
 ```text
-module.exports.rethinkdb = require('rethinkdb');
+import express
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
-
-Then in a Clio file:
-
-```text
-import rethinkdb from rethinkdb
-```
 
 
 
