@@ -38,3 +38,9 @@
   * [Clio environment](modules/modules/clio-environment.md)
   * [Browser](modules/modules/browser.md)
 
+## Tools
+
+* [Tools and Editors](tools/tools-and-editors/README.md)
+  * [VSCode](tools/tools-and-editors/vscode.md)
+  * [Atom](tools/tools-and-editors/atom.md)
+
