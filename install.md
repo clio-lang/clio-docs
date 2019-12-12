@@ -10,6 +10,8 @@ To install Clio language, you'll need Node.js and NPM. After installing Node and
 
 `npm i -g clio-lang`
 
+Check your installation by running `clio` in your local shell. You're good to go!
+
 ## Bleeding Edge Installation
 
 Clio is in active development and installation is only recommended for testing, early adopting and development so it is recommended to install from git before we reach a stable version one release.

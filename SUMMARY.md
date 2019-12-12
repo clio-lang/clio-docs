@@ -2,6 +2,7 @@
 
 * [Clio Documentation](README.md)
 * [Install](install.md)
+* [Getting Started](getting-started.md)
 * [Medium articles](medium-articles.md)
 
 ## Learn
