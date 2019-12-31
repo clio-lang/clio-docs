@@ -1,4 +1,59 @@
 # Clio deps
 
-Use `clio deps.show` to show Clio dependencies of a project and use `clio deps.get` to fetch and install the dependencies.
+## List dependencies
 
+Use `clio deps` to show a Clio project dependencies:
+
+```text
+clio deps
+~> stdlib: latest
+~> rethinkdb: 2.3.3
+```
+
+## Add dependencies
+
+You can install from a url \(compressed package\), a git repository \(@version eg. `@1.2.2` is supported\) or from the official Clio repository. For a list of packages that exist in the official repository you can visit the [official package index repo](https://github.com/clio-lang/packages/).
+
+Use `clio deps add` to fetch and install the dependencies.
+
+### Github format
+
+To install from the master branch of a Github repository:
+
+```text
+clio deps add github.com/clio-lang/rethinkdb
+```
+
+To install from a specific branch of a Github repository:
+
+```text
+clio deps add github.com/clio-lang/rethinkdb@2.3.3
+```
+
+### URL format
+
+To install from a generic URL:
+
+```text
+clio deps add https://a-domain.com/path/to/content.zip
+```
+
+To install from a specific Github URL:
+
+```text
+clio deps add https://github.com/foo/bar/archive/1.2.3.zip
+```
+
+### Package name
+
+If a package is listed in the [Clio packages repository](https://github.com/clio-lang/packages), you can just use its name:
+
+```text
+clio deps add package_name
+```
+
+For example to install [greeter](https://github.com/clio-lang/packages/blob/master/packages/greeter.json):
+
+```text
+clio deps add greeter
+```
