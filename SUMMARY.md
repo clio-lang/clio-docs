@@ -26,7 +26,6 @@
   * [Clio ast](clio-executable/clio-executable/clio-ast.md)
   * [Clio host](clio-executable/clio-executable/clio-host.md)
   * [Clio highlight](clio-executable/clio-executable/clio-highlight.md)
-  * [Clio get](clio-executable/clio-executable/clio-get.md)
   * [Clio deps](clio-executable/clio-executable/clio-deps.md)
   * [Clio init](clio-executable/clio-executable/clio-init.md)
   * [Clio run](clio-executable/clio-executable/clio-run.md)
