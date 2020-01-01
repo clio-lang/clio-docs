@@ -27,8 +27,16 @@ clio deps add github.com/clio-lang/rethinkdb
 To install from a specific branch of a Github repository:
 
 ```text
-clio deps add github.com/clio-lang/rethinkdb@2.3.3
+clio deps add github.com/foo/bar@tagname
 ```
+
+For example this,
+
+```text
+clio deps add github.com/clio-lang/rethinkdb@v2.3.3
+```
+
+installs the .zip file listed at https://github.com/clio-lang/rethinkdb/releases/tag/v2.3.3 (https://github.com/clio-lang/rethinkdb/archive/v2.3.3.zip).
 
 ### URL format
 
@@ -38,13 +46,13 @@ To install from a generic URL:
 clio deps add https://a-domain.com/path/to/content.zip
 ```
 
-To install from a specific Github URL:
+To install from a specific Github tag URL:
 
 ```text
-clio deps add https://github.com/foo/bar/archive/1.2.3.zip
+clio deps add https://github.com/clio-lang/rethinkdb@v2.3.3.zip
 ```
 
-### Package name
+### Package id
 
 If a package is listed in the [Clio packages repository](https://github.com/clio-lang/packages), you can just use its name:
 
@@ -52,8 +60,22 @@ If a package is listed in the [Clio packages repository](https://github.com/clio
 clio deps add package_name
 ```
 
+You can choose to install a particular tag using this syntax:
+
+```text
+clio deps add package_name@tag_id
+```
+
 For example to install [greeter](https://github.com/clio-lang/packages/blob/master/packages/greeter.json):
 
 ```text
 clio deps add greeter
+```
+
+## Download dependencies
+
+To fetch all of the dependencies listed in the package config file:
+
+```text
+clio deps get
 ```
