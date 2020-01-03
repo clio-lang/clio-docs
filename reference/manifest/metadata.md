@@ -1,8 +1,4 @@
-# Project Manifest
-
-The `clio.toml` file in each project serves as its _manifest_. Each manifest consists of multiple fields, through which the project can be configured.
-
-## Top-Level section
+## Top-Level metadata
 
 Meta-information about the project can be specified in the top-level scope of the manifest. As of the current version of clio, these fields do not serve a specific use case, besides providing users of your project with general information.
 

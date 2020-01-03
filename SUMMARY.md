@@ -48,4 +48,5 @@
 
 ## Reference
 
-* [Project Manifest File](reference/project-manifest.md)
+* [Project Manifest File](reference/manifest/README.md)
+  * [Metadata](reference/manifest/metadata.md)
