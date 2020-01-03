@@ -50,3 +50,4 @@
 
 * [Project Manifest File](reference/manifest/README.md)
   * [Metadata](reference/manifest/metadata.md)
+  * [build section](reference/manifest/build-section.md)
