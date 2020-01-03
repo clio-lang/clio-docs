@@ -46,4 +46,6 @@
   * [VSCode](tools/tools-and-editors/vscode.md)
   * [Atom](tools/tools-and-editors/atom.md)
 
-* [v0.2.0](v0.2.0/reference/README.md)
+## Reference
+
+* [Project Manifest File](reference/project-manifest.md)
