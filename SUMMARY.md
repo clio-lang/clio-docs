@@ -22,15 +22,15 @@
 ## Clio Executable
 
 * [Clio Executable](clio-executable/clio-executable/README.md)
-  * [Clio compile](clio-executable/clio-executable/clio-compile.md)
-  * [Clio ast](clio-executable/clio-executable/clio-ast.md)
-  * [Clio host](clio-executable/clio-executable/clio-host.md)
-  * [Clio highlight](clio-executable/clio-executable/clio-highlight.md)
-  * [Clio get](clio-executable/clio-executable/clio-get.md)
-  * [Clio deps](clio-executable/clio-executable/clio-deps.md)
-  * [Clio init](clio-executable/clio-executable/clio-init.md)
-  * [Clio run](clio-executable/clio-executable/clio-run.md)
-  * [Clio completion](clio-executable/clio-executable/clio-completion.md)
+  * [clio ast](clio-executable/clio-executable/clio-ast.md)
+  * [clio compile](clio-executable/clio-executable/clio-compile.md)
+  * [clio completion](clio-executable/clio-executable/clio-completion.md)
+  * [clio deps](clio-executable/clio-executable/clio-deps.md)
+  * [clio highlight](clio-executable/clio-executable/clio-highlight.md)
+  * [clio host](clio-executable/clio-executable/clio-host.md)
+  * [clio init](clio-executable/clio-executable/clio-init.md)
+  * [clio new](clio-executable/clio-executable/clio-new.md)
+  * [clio run](clio-executable/clio-executable/clio-run.md)
 
 ## Modules
 
@@ -51,3 +51,7 @@
 * [Project Manifest File](reference/manifest/README.md)
   * [Metadata](reference/manifest/metadata.md)
   * [build section](reference/manifest/build-section.md)
+
+## Development
+
+* [Dependency parser](dev/dependency_parser/README.md)

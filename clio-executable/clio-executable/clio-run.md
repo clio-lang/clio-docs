@@ -1,4 +1,4 @@
-# Clio run
+# `clio run`
 
 To run a Clio file, you can do:
 

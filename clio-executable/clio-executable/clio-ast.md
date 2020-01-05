@@ -1,4 +1,4 @@
-# Clio ast
+# `clio ast`
 
 To print the abstract syntax tree, you can run:
 
