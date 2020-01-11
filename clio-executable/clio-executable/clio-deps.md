@@ -1,4 +1,4 @@
-# Clio deps
+# `clio deps`
 
 ## List dependencies
 

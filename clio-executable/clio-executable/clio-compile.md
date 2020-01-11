@@ -1,4 +1,4 @@
-# Clio compile
+# `clio compile`
 
 To compile a Clio file to JavaScript, you can do:
 
