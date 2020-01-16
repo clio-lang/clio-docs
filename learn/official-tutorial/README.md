@@ -6,7 +6,7 @@ Please note this is a work in progress, Clio isn't ready for production, it's no
 
 ## Blogs
 
-* [Creator's official blog](https://medium.com/@eghbali)
+* [Creator's official blog](https://medium.com/@pouyae)
 
 ## Examples
 
