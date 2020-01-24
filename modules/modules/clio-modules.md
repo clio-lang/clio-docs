@@ -42,5 +42,17 @@ import ./dir/module.clio
 import ../dir/module.clio
 ```
 
+# External Clio Dependencies
 
+To install a package from the clio package registry, you can run:
+```
+clio deps add <package-name>
+```
+
+this will add the package as a dependency in your manifest, fetch the package and store it inside the `clio_env` directory at the root of your project. If you want to fetch the packages listed in your project manifest file, you can run:
+```
+clio deps get
+```
+
+When the project is compiled, the dependencies inside your `clio_env` directory will be compiled and linked to your build.
 
